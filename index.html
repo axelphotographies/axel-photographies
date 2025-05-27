@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axel.photographies</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #111;
+            color: white;
+        }
+        header {
+            background-color: #000;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #ff6600;
+        }
+        .presentation {
+            padding: 30px;
+            max-width: 800px;
+            margin: auto;
+            text-align: center;
+            font-size: 1.2em;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 30px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            font-size: 1em;
+        }
+        a {
+            color: #ff6600;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Axel.photographies</h1>
+    </header>
+    <section class="presentation">
+        <p>Je suis Axel, jeune photographe depuis 3 ans. Ce que j'aime dans la photographie, c'est le fait de pouvoir exprimer des émotions avec de simples images. Je suis devenu photographe car c'est un métier complet, dans lequel on en apprend tous les jours et qui aide les gens à voyager dans l'imaginaire.</p>
+    </section>
+    <section class="gallery">
+        <img src="photo1.jpg" alt="Photo enfant 1">
+        <img src="photo2.jpg" alt="Photo pianiste">
+        <img src="photo3.jpg" alt="Photo enfant 2">
+    </section>
+    <footer>
+        Contact : <a href="mailto:axellannaud868@gmail.com">axellannaud868@gmail.com</a><br>
+        Instagram : <a href="https://www.instagram.com/axel.photographies" target="_blank">@axel.photographies</a>
+    </footer>
+</body>
+</html>
